@@ -29,8 +29,7 @@ class Cities:
             return False
 
     def distance(self, city_list):
-        l0 = len(city_list)
-        if l0 <= 1:
+        if len(city_list) <= 1:
             return 0
         else:
             (dist, _) = functools.reduce(
