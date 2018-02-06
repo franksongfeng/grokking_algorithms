@@ -59,8 +59,7 @@ class Cities:
 
     def distance_of_roads(self, roads):
         for road in roads:
-            print(road)
-            print(self.distance(road))
+            print(road, self.distance(road))
         return None
 
 CityRoads = {
